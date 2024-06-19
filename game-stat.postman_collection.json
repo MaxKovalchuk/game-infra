@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "c6c23d13-2e23-4076-9443-bb0353228089",
+		"name": "game-stat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6905454",
+		"_collection_link": "https://solar-equinox-512154.postman.co/workspace/Biba~7355407d-81be-491c-b1aa-bc3d21b2cfeb/collection/6905454-c6c23d13-2e23-4076-9443-bb0353228089?action=share&source=collection_link&creator=6905454"
+	},
+	"item": [
+		{
+			"name": "/players/{name}/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/players/user5/stats",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"players",
+						"user5",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/reports/recent-matches/{count}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/reports/recent-matches/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"reports",
+						"recent-matches",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/reports/best-players/{count}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/reports/best-players/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"reports",
+						"best-players",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/reports/popular-servers/{count}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/reports/popular-servers/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"reports",
+						"popular-servers",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/server/info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/server/info",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"server",
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/server/{server}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/server/NA",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"server",
+						"NA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/server/{server}/matches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/server/NA/matches?timestamp=1718711221015",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"server",
+						"NA",
+						"matches"
+					],
+					"query": [
+						{
+							"key": "timestamp",
+							"value": "1718711221015"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/server/{server}/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/server/EEU/stats",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"server",
+						"EEU",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
